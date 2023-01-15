@@ -1,0 +1,12 @@
+/* Cofigurações Globais */
+* {
+   font-family: sans-serif;
+   width: 100%;
+   margin: 0 auto; /* alinhamento ao centro */
+   box-sizing: border-box; 
+
+}
+
+body {
+    background-color: #18181B;
+}
