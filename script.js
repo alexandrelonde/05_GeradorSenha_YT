@@ -37,6 +37,6 @@ function generatePassword(){
 // Função para coletar a senha gerada
 function copyPassword(){
     alert("Senha copiada com sucesso!");
-    navigator.clipboard.writeText(novaSenha)
+    navigator.clipboard.writeText(novaSenha); // passando a nova senha para a área de transferência
 
 }
