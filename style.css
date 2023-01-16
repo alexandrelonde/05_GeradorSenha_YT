@@ -50,6 +50,33 @@ body {
     cursor: pointer;
     font-weight: bold;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 40px;
+}
+
+.container-password {
+    max-width: 480px;
+    margin: 14px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 28px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.password {
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.40) ; /* rgb com opacidade */
+    border-radius: 4px;
+    display: flex;
+    justify-content: center; /* alinhando vertical e horizontal no centro */
+    align-items: center;
+    color: #FFFFFF;
 }
